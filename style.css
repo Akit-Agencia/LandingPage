@@ -11,7 +11,7 @@ body {
     position: relative;
 }
 
-.wrapper header.header .blue {
+.wrapper header.header .purple {
     bottom: -65px;
     height: 525px;
     overflow: hidden;
@@ -73,12 +73,12 @@ body {
     width: 75px;
 }
 
-.wrapper header.header .white img,
-.wrapper header.header .blue img {
+.wrapper header.header .green img,
+.wrapper header.header .purple img {
     width: 100%;
 }
 
-.wrapper header.header .white {
+.wrapper header.header .green {
     bottom: -105px;
     height: 525px;
     overflow: hidden;
@@ -125,7 +125,7 @@ body {
 .wrapper header.header .header-text h3 {
     color: #000000;
     font-family: "Simply Rounded", sans-serif;
-    font-size: 150px;
+    font-size: 140px;
     font-weight: 600%;
     margin-bottom: 25px;
     padding-bottom: 0px;
@@ -218,7 +218,7 @@ body {
     position: relative;
 }
 
-.wrapper section.development .blue {
+.wrapper section.development .purple {
     bottom: 0px;
     height: 225px;
     position: absolute;
@@ -226,7 +226,7 @@ body {
     overflow: hidden;
 }
 
-.wrapper section.development .white {
+.wrapper section.development .green {
     bottom: -22px;
     height: 225px;
     overflow: hidden;
@@ -234,8 +234,8 @@ body {
     width: 100%;
 }
 
-.wrapper section.development .white img,
-.wrapper section.development .blue img {
+.wrapper section.development .green img,
+.wrapper section.development .purple img {
     width: 100%;
 }
 
@@ -447,19 +447,19 @@ body {
     position: relative;
 }
 
-.wrapper section.contact .blue {
+.wrapper section.contact .purple {
     bottom: 116px;
     height: 390px;
     position: absolute;
     width: 100%;
 }
 
-.wrapper section.contact .blue img,
-.wrapper section.contact .white img {
+.wrapper section.contact .purple img,
+.wrapper section.contact .green img {
     width: 100%;
 }
 
-.wrapper section.contact .white {
+.wrapper section.contact .green {
     bottom: 88px;
     height: 335px;
     position: absolute;
@@ -648,7 +648,7 @@ body {
 }
 
 .wrapper section.contact .contact-form input[type="submit"] {
-    background: #0ceac5 none repeat scroll 0 0;
+    background: #7900f2 none repeat scroll 0 0;
     border: medium none;
     border-radius: 25px / 30px;
     color: #ffffff;

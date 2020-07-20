@@ -1,17 +1,17 @@
     @media (min-width: 1440px) and (max-width: 1745px) {
-        .wrapper header.header .white {
+        .wrapper header.header .green {
             bottom: -110px;
         }
-        .wrapper header.header .blue {
+        .wrapper header.header .purple {
             bottom: -80px;
         }
         .wrapper header.header .another-text {
             margin-left: 100px;
         }
-        .wrapper section.contact .white {
+        .wrapper section.contact .green {
             bottom: 40px;
         }
-        .wrapper section.contact .blue {
+        .wrapper section.contact .purple {
             bottom: 40px;
         }
     }
@@ -24,10 +24,10 @@
         .wrapper header.header .header-text {
             padding-top: 45px;
         }
-        .wrapper header.header .blue {
+        .wrapper header.header .purple {
             bottom: -178px;
         }
-        .wrapper header.header .white {
+        .wrapper header.header .green {
             bottom: -205px;
         }
         .wrapper header.header .header-text button {
@@ -36,10 +36,10 @@
         .wrapper section.development {
             padding-bottom: 205px;
         }
-        .wrapper section.development .white {
+        .wrapper section.development .green {
             bottom: -83px;
         }
-        .wrapper section.development .blue {
+        .wrapper section.development .purple {
             bottom: -60px;
         }
         .wrapper section.development {
@@ -55,10 +55,10 @@
         .wrapper section.portfolia .portfolio-part .overlay-slide {
             height: 281px;
         }
-        .wrapper section.contact .blue {
+        .wrapper section.contact .purple {
             bottom: -20px;
         }
-        .wrapper section.contact .white {
+        .wrapper section.contact .green {
             bottom: -16px;
         }
         .wrapper section.contact {
@@ -74,10 +74,10 @@
         .wrapper header.header {
             height: auto;
         }
-        .wrapper header.header .blue {
+        .wrapper header.header .purple {
             height: 365px;
         }
-        .wrapper header.header .white {
+        .wrapper header.header .green {
             bottom: 0;
             height: 275px;
         }
@@ -104,10 +104,10 @@
             height: auto;
             overflow: hidden;
         }
-        .wrapper section.development .white {
+        .wrapper section.development .green {
             bottom: -100px;
         }
-        .wrapper section.development .blue {
+        .wrapper section.development .purple {
             bottom: -80px;
         }
         .wrapper section.works .work-text {
@@ -133,10 +133,10 @@
             height: 600px;
             padding: 50px 0;
         }
-        .wrapper section.contact .blue {
+        .wrapper section.contact .purple {
             bottom: -75px;
         }
-        .wrapper section.contact .white {
+        .wrapper section.contact .green {
             bottom: -70px;
         }
         .wrapper footer.footer {
@@ -172,10 +172,10 @@
         .wrapper header.header {
             height: auto;
         }
-        .wrapper header.header .blue {
+        .wrapper header.header .purple {
             bottom: -285px;
         }
-        .wrapper header.header .white {
+        .wrapper header.header .green {
             bottom: -305px;
         }
         .wrapper header.header .another-text h3 {
@@ -198,10 +198,10 @@
             height: auto;
             overflow: hidden;
         }
-        .wrapper section.development .white {
+        .wrapper section.development .green {
             bottom: -100px;
         }
-        .wrapper section.development .blue {
+        .wrapper section.development .purple {
             bottom: -90px;
         }
         .wrapper section.works .work-text {
@@ -230,10 +230,10 @@
         .wrapper section.contact .contact-text {
             margin-top: 0px;
         }
-        .wrapper section.contact .blue {
+        .wrapper section.contact .purple {
             bottom: -155px;
         }
-        .wrapper section.contact .white {
+        .wrapper section.contact .green {
             bottom: -135px;
         }
         .wrapper footer.footer {
@@ -271,11 +271,11 @@
             height: auto;
             background-size: 100% auto;
         }
-        .wrapper header.header .blue {
+        .wrapper header.header .purple {
             bottom: -45px;
             height: 210px;
         }
-        .wrapper header.header .white {
+        .wrapper header.header .green {
             bottom: -40px;
             height: 192px;
         }
@@ -298,10 +298,10 @@
         .wrapper section.works .work-text {
             margin-left: 0px;
         }
-        .wrapper section.development .blue {
+        .wrapper section.development .purple {
             height: 65px;
         }
-        .wrapper section.development .white {
+        .wrapper section.development .green {
             bottom: 0;
             height: 57px;
         }
@@ -336,10 +336,10 @@
     }
     
     @media only screen and (max-width: 549px) {
-        .wrapper header.header .white,
-        .wrapper header.header .blue,
-        .wrapper section .blue,
-        .wrapper section .white {
+        .wrapper header.header .green,
+        .wrapper header.header .purple,
+        .wrapper section .purple,
+        .wrapper section .green {
             display: none;
         }
         .wrapper header.header .header-text {
