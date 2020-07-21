@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #fff;
 }
 
 .wrapper header.header {
@@ -14,7 +14,15 @@ body {
 
 .wrapper header.header .purple {
     bottom: -65px;
-    height: 420px;
+    height: 425px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper header.header .green {
+    bottom: -105px;
+    height: 425px;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -80,20 +88,6 @@ body {
     width: 100%;
 }
 
-.wrapper header.header .green {
-    bottom: -105px;
-    height: 420px;
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-}
-
-.wrapper header.header .logo h2 {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
 .wrapper header.header .logo img {
     margin: 0;
     padding: 0;
@@ -101,18 +95,10 @@ body {
     overflow: hidden;
 }
 
-.wrapper header.header .logo h2 a {
-    text-align: center;
-    font-family: 'Croissant One', cursive;
-    font-size: 21px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .wrapper header.header ul.nav.navbar-nav li a {
-    font-family: 'Simply Rounded', sans-serif;
-    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 20px;
     font-weight: 500;
     color: #000000;
     text-transform: uppercase;
@@ -159,7 +145,7 @@ body {
     bottom: 0;
     content: "";
     height: 3px;
-    left: 130px;
+    left: 150px;
     position: absolute;
     width: 500px;
 }
@@ -178,7 +164,7 @@ body {
     border: 2px solid #fff;
     border-radius: 60px / 61px;
     color: #fff;
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 170px;
@@ -199,15 +185,13 @@ body {
 
 .wrapper section.first .first-text h1 {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
-    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
     font-weight: 700;
     position: relative;
     padding-top: 40px;
     margin-left: 80px;
     padding-bottom: 20px;
-    border: 1px solid red;
-    
 }
 
 .wrapper section.first .first-text h1::before {
@@ -222,17 +206,16 @@ body {
 
 .wrapper section.first .first-text p {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
-    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
     font-weight: 500;
-    margin-left: 80px;
-    border: 1px solid red;
-    padding-top: 50px;
+    margin-left: 100px;
+    padding-top: 40px;
 }
 
 .wrapper section.development .another-text h3 {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     font-weight: 700;
     position: relative;
@@ -240,7 +223,6 @@ body {
     margin-left: 80px;
     padding-bottom: 20px;
     margin-bottom: 0px;
-    border: 1px solid red;
     
 }
 
@@ -256,18 +238,17 @@ body {
 
 .wrapper section.development .another-text p {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
-    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 25px;
     font-weight: 500;
     margin-left: 80px;
     padding: 20px;
-    border: 1px solid red;
 }
 
 .wrapper section.development {
     padding-bottom: 500px;
     position: relative;
-    border: 1px solid red;
 }
 
 .wrapper section.development .purple {
@@ -276,7 +257,6 @@ body {
     position: absolute;
     width: 100%;
     overflow: hidden;
-    border: 1px solid red;
 }
 
 .wrapper section.development .green {
@@ -284,8 +264,7 @@ body {
     height: 250px;
     overflow: hidden;
     position: absolute;
-    width: 100%;    
-    border: 1px solid black;
+    width: 100%;
 }
 
 .wrapper section.development .green img,
@@ -303,7 +282,7 @@ body {
 
 .wrapper section.development .design-development i {
     font-size: 41px;
-    background: #f48fb1;
+    background: #F29200;
     color: #fff;
     padding: 30px;
     border-radius: 50%;
@@ -311,7 +290,7 @@ body {
 }
 
 .wrapper section.development .design-development i::after {
-    border: 1px solid #f48fb1;
+    border: 1px solid #F29200;
     content: "";
     height: 120px;
     left: -10px;
@@ -322,7 +301,7 @@ body {
 }
 
 .wrapper section.development .design-development i::before {
-    border: 1px solid #f48fb1;
+    border: 1px solid #F29200;
     content: "";
     height: 140px;
     left: -20px;
@@ -333,27 +312,27 @@ body {
 }
 
 .wrapper section.development .design-development.one i {
-    background: #0ceac5;
+    background: #7900F2;
 }
 
 .wrapper section.development .design-development.one i::after,
 .wrapper section.development .design-development.one i::before {
-    border: 1px solid #0ceac5;
+    border: 1px solid #7900F2;
 }
 
 .wrapper section.development .design-development.three i {
-    background: #82b1ff;
+    background: #18F260;
 }
 
 .wrapper section.development .design-development.three i::after,
 .wrapper section.development .design-development.three i::before {
-    border: 1px solid #82b1ff;
+    border: 1px solid #18F260;
 }
 
 .wrapper section.development .design-development h2 {
     position: relative;
-    color: #455a64;
-    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
     font-weight: 700;
     margin: 55px auto 25px;
@@ -364,7 +343,7 @@ body {
 }
 
 .wrapper section.development .design-development h2::before {
-    border: 1px solid #455a64;
+    border: 1px solid #000000;
     bottom: -15px;
     content: "";
     position: absolute;
@@ -372,9 +351,9 @@ body {
 }
 
 .wrapper section.development .design-development p {
-    color: #455a64;
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -390,7 +369,7 @@ body {
 
 .wrapper section.our-team .team-text h2 {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     font-weight: 700;
     margin: 0 auto;
@@ -401,11 +380,11 @@ body {
 }
 
 .wrapper section.our-team .team-text h2::before {
-    background: #455a64 none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
-    left: 65px;
+    left: 0px;
     position: absolute;
     width: 75px;
 }
@@ -431,13 +410,9 @@ body {
 
 }
 
-.wrapper section.our-team .my-claint .item .item-text {
-    opacity: 0;
-}
-
-.wrapper section.our-team .my-claint .item .item-text h3 {
-    color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+.wrapper section.our-team .item .item-text h3 {
+    columns: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 0;
@@ -446,7 +421,7 @@ body {
 
 .wrapper section.our-team .item .item-text h4 {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 32px;
@@ -460,18 +435,13 @@ body {
 
 .wrapper section.our-team .owl-item.active.center .item img {
     width: 300px;
-    opacity: 1;
-}
-
-.wrapper section.our-team .owl-item.active.center .item.item-text {
-    opacity: 1
 }
 
 .wrapper section.our-team .owl-prev,
 .wrapper section.our-team .owl-next {
     position: absolute;
     top: 35px;
-    background: #ffffff;
+    background: #fff;
 }
 
 .wrapper section.our-team .owl-prev {
@@ -535,7 +505,7 @@ body {
 
 .wrapper section.contact .contact-text h2 {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -554,14 +524,14 @@ body {
 
 .wrapper section.contact .contact-text p {
     color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding-top: 5px;
 }
 
 .wrapper section.contact .contact-form {
-    background: #ffffff none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     margin-left: 135px;
     margin-top: 50px;
     padding: 40px 35px 35px;
@@ -588,12 +558,12 @@ body {
 
 .wrapper section.contact .contact-form input[type="text"] {
     background: transparent none repeat scroll 0 0;
-    border-color: -moz-use-text-color -moz-use-text-color #cfd8dc;
+    border-color: -moz-use-text-color -moz-use-text-color transparent;
     border-image: none;
     border-style: none none solid;
     border-width: medium medium 1px;
-    color: #404548;
-    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
     padding-bottom: 5px;
@@ -614,12 +584,12 @@ body {
 
 .wrapper section.contact .contact-form input[type="email"] {
     background: transparent none repeat scroll 0 0;
-    border-color: -moz-use-text-color -moz-use-text-color #cfd8dc;
+    border-color: -moz-use-text-color -moz-use-text-color transparent;
     border-image: none;
     border-style: none none solid;
     border-width: medium medium 1px;
-    color: #404548;
-    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
     padding-top: 47px;
@@ -641,12 +611,12 @@ body {
 
 .wrapper section.contact .contact-form input[type="asunto"] {
     background: transparent none repeat scroll 0 0;
-    border-color: -moz-use-text-color -moz-use-text-color #7900F2;
+    border-color: -moz-use-text-color -moz-use-text-color transparent;
     border-image: none;
     border-style: none none solid;
     border-width: medium medium 1px;
-    color: 	 #404548;
-    font-family: "Raleway", sans-serif;
+    color: 	 #000000;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
     padding-top: 47px;
@@ -668,12 +638,12 @@ body {
 
 .wrapper section.contact .contact-form .message textarea {
     background: transparent none repeat scroll 0 0;
-    border-color: -moz-use-text-color -moz-use-text-color #cfd8dc;
+    border-color: -moz-use-text-color -moz-use-text-color transparent;
     border-image: none;
     border-style: none none solid;
     border-width: medium medium 1px;
-    color: #404548;
-    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
     height: 145px;
@@ -699,8 +669,8 @@ body {
     margin-left: 17px;
     padding-top: 30px;
     width: 200px;
-    color: #8197a3;
-    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
@@ -714,8 +684,8 @@ body {
     background: #7900f2 none repeat scroll 0 0;
     border: medium none;
     border-radius: 25px / 30px;
-    color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 600;
     padding: 11px 65px;
@@ -728,34 +698,35 @@ body {
 .wrapper footer.footer {
     background-image: url("img/footer-bg.jpg");
     background-size: 100% 100%;
-    height: 300px;
+    height: 280px;
     margin-top: 50px;
     padding-top: 50px;
 }
 
 .wrapper footer.footer .footer-icon h2 {
     color: #fff;
-    font-family: "Croissant One", cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 40px;
     position: relative;
     justify-content: center;
+    align-items: center;
 }
 
 .wrapper footer.footer .footer-icon h2::before {
-    background: #000000 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     bottom: -17px;
     content: "";
     height: 2px;
-    left: 0;
+    left: 0px;
     position: absolute;
-    width: 220px;
+    width: 200px;
 }
 
 .wrapper footer.footer .footer-icon h5 {
-    color: #000000;
-    font-family: "Simply Rounded", sans-serif;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin-top: 35px;
@@ -763,23 +734,23 @@ body {
 }
 
 .wrapper footer.footer .footer-icon i {
-    color: #ffffff;
+    color: #fff;
     font-size: 50px;
-    padding: 0 44px 0 0;
+    padding: 80px 10px;
     justify-content: center;
 }
 
 .wrapper footer.footer .footer-text .footer-text-single h3 {
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #ffffff;
+    color: #fff;
     justify-content: flex-end;
     
 }
 
 .wrapper footer.footer .footer-text .footer-text-single p a {
-    font-family: "Simply Rounded", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #000000;
