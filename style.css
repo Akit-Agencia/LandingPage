@@ -94,6 +94,13 @@ body {
     padding: 0;
 }
 
+.wrapper header.header .logo img {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
 .wrapper header.header .logo h2 a {
     text-align: center;
     font-family: 'Croissant One', cursive;
@@ -373,7 +380,8 @@ body {
 }
 
 .wrapper section.our-team {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .wrapper section.our-team .team-text {
@@ -410,17 +418,16 @@ body {
 .wrapper section.our-team .item {
     text-align: center;
     float: left;
-    display: flex;
-    padding: 20px;
+    display: initial;
+    padding: 70px 70px ;
 
 
 }
 
 .wrapper section.our-team .item img {
-    width: 150px;
+    width: 200px;
     margin: 0 auto;
-    opacity: 0.3;
-    height: 150px;
+    height: 200px;
 
 }
 
@@ -437,7 +444,7 @@ body {
     margin-top: 30px;
 }
 
-.wrapper section.our-team .my-claint .item .item-text h4 {
+.wrapper section.our-team .item .item-text h4 {
     color: #000000;
     font-family: "Simply Rounded", sans-serif;
     font-size: 20px;
@@ -445,18 +452,18 @@ body {
     margin-bottom: 32px;
 }
 
-.wrapper section.our-team .my-claint .item .item-text i {
+.wrapper section.our-team .item .item-text i {
     color: #000000;
     font-size: 30px;
     padding: 0 17px;
 }
 
-.wrapper section.our-team .my-claint .owl-item.active.center .item img {
-    width: 200px;
+.wrapper section.our-team .owl-item.active.center .item img {
+    width: 300px;
     opacity: 1;
 }
 
-.wrapper section.our-team .my-claint .owl-item.active.center .item>.item-text {
+.wrapper section.our-team .owl-item.active.center .item.item-text {
     opacity: 1
 }
 
@@ -499,7 +506,7 @@ body {
 .wrapper section.contact {
     height: auto;
     overflow: hidden;
-    padding: 50px 0;
+    padding: 100px 0;
     position: relative;
 }
 
@@ -523,7 +530,7 @@ body {
 }
 
 .wrapper section.contact .contact-text {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .wrapper section.contact .contact-text h2 {
@@ -721,9 +728,9 @@ body {
 .wrapper footer.footer {
     background-image: url("img/footer-bg.jpg");
     background-size: 100% 100%;
-    height: 400px;
-    margin-top: 100px;
-    padding-top: 110px;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .wrapper footer.footer .footer-icon h2 {
