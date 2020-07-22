@@ -239,7 +239,9 @@
         .wrapper footer.footer {
             height: auto;
         }
-        .wrapper footer.footer .footer-icon {}
+        .wrapper footer.footer .footer-icon {
+            text-align: center;
+        }
     }
 
     @media (min-width: 550px) and (max-width: 767px) {
@@ -342,8 +344,12 @@
         .wrapper section .green {
             display: none;
         }
+        .wrapper header.header .logo {
+            text-align: center;
+            padding-bottom: 100px;
+        }
         .wrapper header.header .header-text {
-            padding-top: 0;
+            padding-top: 20;
             width: 100%;
         }
         .wrapper header.header .header-text h1::before {
