@@ -7,14 +7,13 @@ body {
     background-size: 100% auto;
     height: auto;
     overflow: hidden;
-    padding-top: 35px;
     position: relative;
     padding-bottom: 50px;
 }
 
 .wrapper header.header .purple {
     bottom: -65px;
-    height: 425px;
+    height: 430px;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -22,7 +21,7 @@ body {
 
 .wrapper header.header .green {
     bottom: -105px;
-    height: 425px;
+    height: 430px;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -246,13 +245,12 @@ body {
 }
 
 .wrapper section.development {
-    padding-bottom: 500px;
     position: relative;
 }
 
 .wrapper section.development .purple {
     bottom: 0px;
-    height: 260px;
+    height: 300px;
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -260,7 +258,7 @@ body {
 
 .wrapper section.development .green {
     bottom: -20px;
-    height: 260px;
+    height: 300px;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -270,7 +268,7 @@ body {
 .wrapper section.development .purple img {
     width: 100%;
     padding-top: 40px;
-    padding-bottom: 100px;
+    position: absolute;
 }
 
 .wrapper section.development .design-development {

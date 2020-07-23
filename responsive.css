@@ -43,7 +43,6 @@
             bottom: -60px;
         }
         .wrapper section.development {
-            height: 600px;
             overflow: hidden;
         }
         .wrapper section.contact .purple {
@@ -96,7 +95,7 @@
             overflow: hidden;
         }
         .wrapper section.development .green {
-            bottom: -100px;
+            bottom: -20px;
         }
         .wrapper section.development .purple {
             bottom: -80px;
@@ -257,9 +256,6 @@
         .wrapper section.development {
             padding-bottom: 100px;
             height: auto;
-        }
-        .wrapper section.works .work-text {
-            margin-left: 0px;
         }
         .wrapper section.development .purple {
             height: 65px;
