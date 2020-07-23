@@ -1,4 +1,4 @@
-    @media (min-width: 1440px) and (max-width: 1745px) {
+     @media screen and (max-width: 1745px) {
         .wrapper header.header .green {
             bottom: -110px;
         }
@@ -14,9 +14,9 @@
         .wrapper section.contact .purple {
             bottom: 40px;
         }
-    }
+     } 
 
-    @media (min-width: 1200px) and (max-width: 1439px) {
+    @media screen and (max-width: 1439px) {
         .wrapper header.header {
             background-size: 100% auto;
             height: auto;
@@ -46,15 +46,6 @@
             height: 600px;
             overflow: hidden;
         }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2 {
-            margin-top: 75px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2::before {
-            width: 265px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide {
-            height: 281px;
-        }
         .wrapper section.contact .purple {
             bottom: -20px;
         }
@@ -68,9 +59,9 @@
         .wrapper footer.footer {
             margin-top: 50px;
         }
-    }
+    } 
 
-    @media (min-width: 992px) and (max-width: 1199px) {
+    @media screen and (max-width: 1023px) {
         .wrapper header.header {
             height: auto;
         }
@@ -110,25 +101,7 @@
         .wrapper section.development .purple {
             bottom: -80px;
         }
-        .wrapper section.works .work-text {
-            margin-left: 20px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide {
-            padding: 15px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2 {
-            font-size: 32px;
-            margin-top: 35px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2::before {
-            width: 240px;
-        }
-        .wrapper section.portfolia .portfolio-part {
-            height: 225px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide p {
-            line-height: 18px;
-        }
+
         .wrapper section.contact {
             height: 600px;
             padding: 50px 0;
@@ -143,14 +116,14 @@
             margin-top: 50px;
         }
         .wrapper footer.footer .footer-text .footer-text-single p a {
-            font-size: 13px;
+            font-size: 15px;
         }
         .wrapper footer.footer .footer-icon i {
             padding: 0 30px 0 0;
         }
     }
 
-    @media (min-width: 768px) and (max-width: 991px) {
+    @media screen and (max-width: 991px) {
         .wrapper header.header .header-text {
             width: 100%;
             padding-top: 20px;
@@ -204,21 +177,6 @@
         .wrapper section.development .purple {
             bottom: -90px;
         }
-        .wrapper section.works .work-text {
-            margin-left: 0px;
-        }
-        .wrapper section.portfolia .portfolio-part {
-            height: 260px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide {
-            padding: 15px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2 {
-            margin-top: 65px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2::before {
-            width: 270px;
-        }
         .wrapper section.contact {
             height: auto;
             overflow: hidden;
@@ -242,9 +200,12 @@
         .wrapper footer.footer .footer-icon {
             text-align: center;
         }
+        .wrapper footer.footer .footer-text .footer-text-single {
+            text-align: center;
+        }
     }
 
-    @media (min-width: 550px) and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
         .wrapper header.header .logo {
             text-align: center;
         }
@@ -307,14 +268,6 @@
             bottom: 0;
             height: 57px;
         }
-        .wrapper section.portfolia .portfolio-part {
-            margin: 55px auto 0;
-            width: 500px;
-        }
-        .wrapper section.portfolia .port-text {
-            margin: 0 auto;
-            width: -moz-fit-content;
-        }
         .wrapper section.contact {
             height: auto;
         }
@@ -337,7 +290,7 @@
         }
     }
 
-    @media only screen and (max-width: 549px) {
+    @media screen and (max-width: 480px) {
         .wrapper header.header .green,
         .wrapper header.header .purple,
         .wrapper section .purple,
@@ -347,9 +300,10 @@
         .wrapper header.header .logo {
             text-align: center;
             padding-bottom: 100px;
+            padding-right: 80px;
         }
         .wrapper header.header .header-text {
-            padding-top: 20;
+            padding-top: 100px;
             width: 100%;
         }
         .wrapper header.header .header-text h1::before {
@@ -374,52 +328,14 @@
             padding: 14px 50px;
             width: auto;
         }
+        .wrapper section.first {
+            padding-bottom: 50px;
+            padding-top: 50px;
+            padding-right: 50px;
+        }
         .wrapper section.development {
             padding-bottom: 50px;
             padding-top: 50px;
-        }
-        .wrapper section.works .work-text {
-            margin-left: 0px;
-        }
-        .wrapper section.works .work-text h2 {
-            font-size: 30px;
-        }
-        .wrapper section.portfolia .port-text h2 {
-            font-size: 30px;
-        }
-        .wrapper section.portfolia .portfolio-part {
-            height: auto;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide {
-            padding: 5px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2 {
-            font-size: 30px;
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }
-        .wrapper section.portfolia .portfolio-part .overlay-slide h2::before {
-            display: none;
-        }
-        div.wrapper section.portfolia div.penination p {
-            font-size: 15px;
-            padding: 8px 19px;
-        }
-        div.wrapper section.portfolia div.penination p::before {
-            font-size: 14px;
-            height: 35px;
-            left: -48px;
-            line-height: 35px;
-            top: 3px;
-            width: 35px;
-        }
-        div.wrapper section.portfolia div.penination p::after {
-            font-size: 14px;
-            height: 35px;
-            right: -48px;
-            line-height: 35px;
-            top: 3px;
-            width: 35px;
         }
         .wrapper section.our-team .team-text p br {
             display: none;
@@ -428,21 +344,21 @@
             width: 90px;
             display: flex;
         }
-        .wrapper section.our-team .my-claint .item:hover>img {
+        .wrapper section.our-team  .item:hover>img {
             width: 100px;
         }
         .wrapper section.our-team .owl-prev,
         .wrapper section.our-team .owl-next {
             display: none;
         }
-        .wrapper section.our-team .my-claint .item .item-text h3 {
+        .wrapper section.our-team  .item .item-text h3 {
             font-size: 20px;
         }
-        .wrapper section.our-team .my-claint .item .item-text h4 {
+        .wrapper section.our-team  .item .item-text h4 {
             font-size: 14px;
             margin-bottom: 10px;
         }
-        .wrapper section.our-team .my-claint .item .item-text i {
+        .wrapper section.our-team  .item .item-text i {
             font-size: 15px;
             padding: 0 3px;
         }
@@ -460,6 +376,9 @@
             width: 100%;
         }
         .wrapper section.contact .contact-form input[type="email"] {
+            padding-top: 10px;
+        }
+        .wrapper section.contact .contact-form input[type="asunto"] {
             padding-top: 10px;
         }
         .wrapper section.contact .contact-form .message textarea {
@@ -484,25 +403,22 @@
         }
         .wrapper footer.footer .footer-icon h2::before {
             width: 100px;
+            margin-left: 100px;
         }
         .wrapper footer.footer .footer-icon i {
-            font-size: 22px;
-            padding: 0 20px 0 0;
-        }
-        .wrapper section.works .work-images {
-            height: 300px;
-        }
-        .wrapper section.works .work-images .overlay-text {
-            padding-top: 108px;
+            font-size: 40px;
+            padding: 0 15px 0 0;
         }
         .wrapper header.header ul.nav.navbar-nav {
             width: 200px;
+            padding-right: 100px;
         }
     }
 
-    @media only screen and (max-width: 365px) {
+    @media screen and (max-width: 320px) {
         .wrapper footer.footer .footer-text .footer-text-single p a {
-            font-size: 10px;
+            font-size: 20px;
             font-weight: 800;
+            text-align: center;
         }
     }
