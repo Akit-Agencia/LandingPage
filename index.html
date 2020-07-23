@@ -181,21 +181,21 @@
                     </div>
                     <div class="col-md-8 col-sm-12">
                         <div class="contact-form">
-                            <form action="http://akit-pruebas.mypressonline.com/enviar.php" method="post">
+                            <form action="http://akit-pruebas.mypressonline.com/enviar.php" method="post" autocomplete="on">
                                 <div class="first" >
-                                    <input type="text" name="nombre" placeholder="Nombre" jsname="YPqjbf" aria-labelledby="i1" aria-describedby="i2 i3">
+                                    <input type="text" name="nombre" placeholder="Nombre" jsname="YPqjbf" aria-labelledby="i1" aria-describedby="i2 i3" required>
                                 </div>
                                 <div class="last">
-                                    <input type="text" name="apellido" placeholder="Apellido">
-                                </div>
-                                <div class="email">
-                                    <input type="email" name="email" placeholder="Email">
+                                    <input type="text" name="apellido" placeholder="Apellido" required>
                                 </div>
                                 <div class="asunto">
-                                    <input type="asunto" name="asunto" placeholder="Asunto">
+                                    <input type="text" name="asunto" placeholder="Asunto" required>
+                                </div>
+                                <div class="email">
+                                    <input type="email" name="email" placeholder="Email" required>
                                 </div>
                                 <div class="message">
-                                    <textarea placeholder="Mensaje" name="mensaje" id="menssage"></textarea>
+                                    <textarea placeholder="Mensaje" name="mensaje" id="menssage" required></textarea>
                                 </div>
                                 <div class="checkbox-submit">
                                     <div class="submit">

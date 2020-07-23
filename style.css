@@ -13,7 +13,7 @@ body {
 
 .wrapper header.header .purple {
     bottom: -65px;
-    height: 430px;
+    height: 420px;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -21,7 +21,7 @@ body {
 
 .wrapper header.header .green {
     bottom: -105px;
-    height: 430px;
+    height: 420px;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -567,6 +567,7 @@ body {
     font-size: 15px;
     font-weight: 600;
     padding-bottom: 5px;
+    padding-top: 30px;
     width: 100%;
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -592,34 +593,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    padding-top: 47px;
-    padding-bottom: 5px;
-    width: 100%;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    -webkit-border-bottom-colors: none;
-    -webkit-border-left-colors: none;
-    -webkit-border-right-colors: none;
-    -webkit-border-top-colors: none;
-    -o-border-bottom-colors: none;
-    -o-border-left-colors: none;
-    -o-border-right-colors: none;
-    -o-border-top-colors: none;
-}
-
-.wrapper section.contact .contact-form input[type="asunto"] {
-    background: transparent none repeat scroll 0 0;
-    border-color: -moz-use-text-color -moz-use-text-color transparent;
-    border-image: none;
-    border-style: none none solid;
-    border-width: medium medium 1px;
-    color: 	 #000000;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    padding-top: 47px;
+    padding-top: 30px;
     padding-bottom: 5px;
     width: 100%;
     -moz-border-bottom-colors: none;
@@ -646,7 +620,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    height: 145px;
+    height: 120px;
     padding-bottom: 5px;
     padding-top: 46px;
     width: 100%;
@@ -662,17 +636,6 @@ body {
     -o-border-left-colors: none;
     -o-border-right-colors: none;
     -o-border-top-colors: none;
-}
-
-.wrapper section.contact .contact-form .checkbox {
-    float: left;
-    margin-left: 17px;
-    padding-top: 30px;
-    width: 200px;
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
 }
 
 .wrapper section.contact .contact-form .submit {

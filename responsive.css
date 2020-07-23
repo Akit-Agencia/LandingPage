@@ -277,7 +277,7 @@
             padding-bottom: 50px;
         }
         .wrapper section.contact .contact-form {
-            width: 525px;
+            width: 400px;
             margin: 70px auto 0;
         }
         .wrapper section.contact .contact-text {
@@ -372,14 +372,13 @@
             width: 100%;
         }
         .wrapper section.contact .contact-form input[type="email"] {
-            padding-top: 10px;
+            padding-top: 30px;
         }
         .wrapper section.contact .contact-form input[type="asunto"] {
             padding-top: 10px;
         }
         .wrapper section.contact .contact-form .message textarea {
             height: 100px;
-            padding-top: 10px;
         }
         .wrapper section.contact .contact-form .checkbox {
             float: none;
