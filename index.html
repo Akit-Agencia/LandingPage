@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Akit Agencia Digital">
-	<meta name="description" content="Akit, Agencia, Digital, Piura, Diseño, Web, Peru, Emprendedor, Negocio, Servicio, Landing, Page, Informativa, Calidad, Pagina, Asesoria, Crece, Conoce, Futuro">
+	<meta name="description" content="Akit, Agencia, Digital, Piura, Diseño, Web, Peru, Emprendedor, Negocio, Servicio, Landing, Page, Informativa, Calidad, Pagina, Asesoria, Crece, Conoce, Futuro, Despega, Disfrutando, Innovar">
     <title>AKIT</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -181,21 +182,37 @@
                     </div>
                     <div class="col-md-8 col-sm-12">
                         <div class="contact-form">
-                            <form action="http://akit-pruebas.mypressonline.com/enviar.php" method="post" autocomplete="on">
+                            <script>
+                                function enviar(){
+                            var nombre = document.getElementByid('nom').value;
+                            var apellido = document.getElementById('ape').value;
+                                var dataen = 'nom=' + nombre + '&ape=' + apellido;
+                            $.ajax({
+                                    type:'post',
+                                url:'http://akit-pruebas.mypressonline.com/enviar.php',
+                                data: dataen,
+                                success:function(resp){
+                                    $("#respa").html(resp);
+                                }
+                            });
+                            return false;
+                        }
+                            </script>
+                            <form method="post" onsubmit="return enviar();">
                                 <div class="first" >
-                                    <input type="text" name="nombre" placeholder="Nombre" jsname="YPqjbf" aria-labelledby="i1" aria-describedby="i2 i3" required>
+                                    <input type="text" name="nombre" placeholder="Nombre"  id="nom" jsname="YPqjbf" aria-labelledby="i1" aria-describedby="i2 i3" >
                                 </div>
                                 <div class="last">
-                                    <input type="text" name="apellido" placeholder="Apellido" required>
+                                    <input type="text" name="apellido" placeholder="Apellido" id="ape" >
                                 </div>
                                 <div class="asunto">
-                                    <input type="text" name="asunto" placeholder="Asunto" required>
+                                    <input type="text" name="asunto" placeholder="Asunto" >
                                 </div>
                                 <div class="email">
-                                    <input type="email" name="email" placeholder="Email" required>
+                                    <input type="email" name="email" placeholder="Email" >
                                 </div>
                                 <div class="message">
-                                    <textarea placeholder="Mensaje" name="mensaje" id="menssage" required></textarea>
+                                    <textarea placeholder="Mensaje" name="mensaje" id="menssage" ></textarea>
                                 </div>
                                 <div class="checkbox-submit">
                                     <div class="submit">
@@ -203,6 +220,7 @@
                                     </div>
                                 </div>
                             </form>
+                            <p id="respa">hola</p>
                         </div>
                     </div>
                 </div>
@@ -235,6 +253,7 @@
                 </div>
             </div>
     </div>
+
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>

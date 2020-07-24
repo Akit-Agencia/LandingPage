@@ -8,7 +8,7 @@ body {
     height: auto;
     overflow: hidden;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 .wrapper header.header .purple {
@@ -166,9 +166,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 170px;
     margin-right: 27px;
-    padding: 14px 50px;
+    padding: 15px 50px;
 }
 
 .wrapper header.header .header-text button:hover {
@@ -641,6 +640,7 @@ body {
 .wrapper section.contact .contact-form .submit {
     float: right;
     padding-top: 25px;
+    padding-bottom: 100px;
 }
 
 .wrapper section.contact .contact-form input[type="submit"] {
@@ -655,7 +655,7 @@ body {
 }
 
 .wrapper section.contact .contact-form .checkbox-submit {
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .wrapper footer.footer {
